@@ -9,7 +9,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="democicdFlow" doc:id="e6e7e1ae-6141-47d6-8d34-965fdebb73e2" >
 		<http:listener doc:name="Listener" doc:id="e31c07c0-0551-4d55-bab8-c2727e475977" config-ref="HTTP_Listener_config" path="/cicd"/>
-		<logger level="INFO" doc:name="Logger" doc:id="b7289296-98fd-4504-975d-ecf2b01d7155" message="cicddemodeomchmges"/>
+		<logger level="INFO" doc:name="Logger" doc:id="b7289296-98fd-4504-975d-ecf2b01d7155" message="cicddemodeomchmgesdemo"/>
 		<set-payload value="#[payload]" doc:name="Set Payload" doc:id="0ef0936d-2e2a-4227-a761-7b9d290420e3" />
 		<logger level="INFO" doc:name="Logger" doc:id="668f9bd5-858b-4758-a22d-d210b45bd5b8" message="cicdcheckijnedcheckindemo"/>
 	</flow>
