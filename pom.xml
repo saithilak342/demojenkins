@@ -42,7 +42,7 @@
           <workerType>Micro</workerType>
           <workers>1</workers> 
           <uri>https://anypoint.mulesoft.com</uri>; 
-          <applicationName>firstdemo-cicd</applicationName> 
+          <applicationName>jenkinsdemov1</applicationName> 
         </cloudHubDeployment> 
       </configuration> 
       <executions> 
